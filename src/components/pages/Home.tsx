@@ -17,7 +17,7 @@ function Home() {
                 const response = await axios.get(`${server}getPosts.php`)
                 if(response.data !== "0 results") {
                     setPostsArray(response.data.posts)
-                setCommentArray(response.data.comments)
+                    setCommentArray(response.data.comments)
                 }
                 
                 
