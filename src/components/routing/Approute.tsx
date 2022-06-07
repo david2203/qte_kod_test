@@ -2,9 +2,8 @@
 
 import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-// import Header from "../global/Header";
 import Home from "../pages/Home";
-// import Footer from "../global/Footer";
+
 
 //routing all the imported components and also external page links
 function AppRoute() {
